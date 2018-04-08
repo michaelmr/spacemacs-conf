@@ -50,6 +50,7 @@ values."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
+     ;;(osx :variables osx-use-option-as-meta nil)
      osx
      ;; added osx layer as suggested in https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bos/osx
      )
@@ -303,6 +304,7 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  (setq-default mac-right-option-modifier 'none)
   )
 
 (defun dotspacemacs/user-config ()
