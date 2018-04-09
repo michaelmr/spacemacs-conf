@@ -1,3 +1,17 @@
+
+# Installation steps for font Source Code Pro
+
+## Font installation instructions
+
+Requires packages: __brew package manager__
+
+Execute command:
+`brew tap caskroom/fonts && brew cask install font-source-code-pro`
+
+
+Url for Source Code Pro font installation. See [Source Code Pro] (https://github.com/adobe-fonts/source-code-pro#font-installation-instructions "Font installation instructions") and [Beginners Tutorial](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org#4-install-the-default-font "Install default font section")
+
+
 # Installation Steps to fulfill Major Mode dependencies a.k.a layers
 
 
@@ -26,7 +40,7 @@ Url for JavaScript layer. See [JS layer](https://github.com/syl20bnr/spacemacs/t
 
 ## nvm installation - Mac OS X
 
-Requires brew package manager. See [Homebrew](https://brew.sh/ "Homesite for Homebrew package manager") 
+Requires packages: __brew package manager__. See [Homebrew](https://brew.sh/ "Homesite for Homebrew package manager") 
 
 Execute command:
 
